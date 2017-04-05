@@ -1,0 +1,47 @@
+{
+  "name": "typescript-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tests": "./node_modules/.bin/mocha tests/**/*.test.js",
+    "typescript": "tsc -p .",
+    "typescript-watch": "tsc -p . -w"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://viralpickaxe@github.com/viralpickaxe/gocardless-scraper.git"
+  },
+  "author": "Jamie Davies <jamie@iamjamiedavies.com> (iamjamiedavies.com)",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bluebird": "^3.5.2",
+    "@types/body-parser": "^1.16.3",
+    "@types/express": "^4.0.35",
+    "@types/helmet": "0.0.34",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^7.0.12",
+    "@types/sinon": "^2.1.2",
+    "@types/winston": "^2.3.0",
+    "assert": "^1.4.1",
+    "axios": "^0.16.0",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "helmet": "^3.5.0",
+    "mockdate": "^2.0.1",
+    "moment": "^2.18.1",
+    "on-headers": "^1.0.1",
+    "sinon": "^2.1.0",
+    "winston": "^2.3.1",
+    "winston-papertrail": "^1.0.4"
+  }
+}
